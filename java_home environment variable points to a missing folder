@@ -1,0 +1,12 @@
+java_home environment variable points to a missing folder
+
+Resolution:
+1.	In Visual Studio Code, click File > Preferences > Settings (Windows or Linux) or Code > Preferences > Settings (macOS).
+2.	Enter apex java in the search box.
+3.	In the salesforcedx-vscode-apex.java.home setting, enter the Java installation directory you want to use
+
+How to find Java installation directory:
+1. open command prompt
+2. give command: echo %JAVA_HOME%
+   This will give you the directory, copy this and past in above point 3
+3. Relaunch Visual Studio Code, open a new terminal and run java -version to ensure the setting takes effect.
