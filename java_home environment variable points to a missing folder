@@ -1,4 +1,4 @@
-java_home environment variable points to a missing folder
+Error: java_home environment variable points to a missing folder
 
 Resolution:
 1.	In Visual Studio Code, click File > Preferences > Settings (Windows or Linux) or Code > Preferences > Settings (macOS).
